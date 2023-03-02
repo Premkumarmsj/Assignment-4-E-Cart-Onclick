@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+/* .main2{
+    display: ;
+    margin-top: 20%;
+}
+
+.left-container{
+    float: left;
+    margin-left: 20%;
+}
+.right-container{
+    float: right;
+    margin-right: 10%;
+}
+.right-pics{
+    display: flex;
+} */
+
+.main2,
+.left-container,
+.right-container{
+    /* border: solid 1px black; */
+    margin: 15px;
+}
+
+.main2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.left-container {
+    width: 400px;
+    height: 500px;
+    display: flex;
+
+}
+
+.left-pic{
+
+    width: 100%;
+}
+
+.left-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.left-pic{
+    
+    
+/*     background-image: url(./Images/clothings_m_w/men-navy-neck.jpg); */
+    width: 100%;
+    height: 100%;
+ 
+}
+
+.right-container {
+    width: 500px;
+    height: 500px;
+    max-width: 100%;
+    width: auto;
+
+
+}
+
+
+
+.right-container h1 {
+    font-size: 45px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+
+.right-container h3 {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #0000009f;
+    font-family: sans-serif;
+    margin-left: 15px;
+    margin-top: 5px;
+
+}
+
+.rate {
+    color: #1b9c37c7;
+    font-weight: bold;
+}
+
+.right-container h5 {
+    font-size: 15px;
+    margin-left: 15px;
+    color: #0000009f;
+    margin-top: 5px;
+}
+
+.preview{
+    margin-top: 50px;
+}
+
+
+
+.right-pics {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 650px;
+    height: auto;
+    justify-content: space-evenly
+
+  
+}
+
+.posing-pic-1 img{
+    width: 100px;
+    height: 120px;padding: 5px;
+    opacity: 1;
+    
+
+}
+
+
+
+
+
+
+
+.posing-pic-1 img:hover {
+    border: solid 1px rgba(83, 81, 81, 0.76);
+    border-radius: 5px;
+    opacity: .6;
+
+
+}
+
+
+.add-cart-btn {
+    width: 150px;
+    height: 35px;
+    border-color: #009688;
+    border-radius: 5px;
+    background-color: #009688;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 1.5px;
+    margin-left: 20px;
+    margin-top: 15px;
+
+}
+
+@media screen and (max-width: 768px){
+    .main2{
+        width: 100%;
+        height: auto;
+    }
+}
